@@ -1,0 +1,53 @@
+.hvr__images {
+    position: relative;
+}
+
+.hvr__sectors {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.hvr__sector {
+    flex-grow: 1;
+}
+
+/* не обязательные стили */
+.slide-prod-wrap{
+    min-height: 225px;
+}
+.images {
+    max-width: 210px;
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.image {
+    width: 100%;
+    max-width: 210px;
+    display: block;
+}
+
+.hvr__dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hvr__dot {
+    width: 5px;
+    height: 5px;
+    margin: 10px 2px 0;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #EAEAEA;
+}
+
+.hvr__dot--active {
+    border: 1px solid #477EF4;
+    background: #477EF4;
+}
